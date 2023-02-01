@@ -20,7 +20,7 @@ const router = createRouter({
     {
       path: "/messages",
       name: "messages",
-      component: () => import("../components/Messages.vue"),
+      component: () => import("../components/TheMessages.vue"),
     },
   ],
 });
